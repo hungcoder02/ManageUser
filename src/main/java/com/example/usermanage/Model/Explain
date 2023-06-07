@@ -1,0 +1,6 @@
+
+
+
+Model là đối tươợng dùng để truyền dữ lệu từ Controller đến View trong quá trình xử lí  các yêu cầu của web
+
+Model chưứa các thuộc tính và phương thức để truy cập giá trị thộc tính đó

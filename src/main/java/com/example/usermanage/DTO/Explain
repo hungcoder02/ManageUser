@@ -1,0 +1,8 @@
+
+
+
+DTO (Data Transfer Object) là mô hình thiết kế được sử dụng trong Spring và các framework Java khác để chuyển dữ liệu giữa các lớp và hệ thống
+
+DTO đuược dùng để truyền dữ liệu giữa các lớp DAO( Data Access Object) và Service hoặc Service và Controller
+
+giúp việc hạn chế  viêệc truyền tải dữ liệu không cần thiết.
