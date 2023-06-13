@@ -45,6 +45,11 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         return new BCryptPasswordEncoder();
     }
 
+    @Bean
+    public JWTAuthenticationFilter jwtAuthenticationFilter(){
+        return new JWTAuthenticationFilter();
+    }
+
     @Override
     protected void configure(HttpSecurity httpSecurity) throws Exception{
         httpSecurity.cors().and().csrf().disable().authorizeHttpRequests()
